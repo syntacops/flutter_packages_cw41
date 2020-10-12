@@ -24,7 +24,9 @@ dependencies:
   flutter:
     sdk: flutter
   clean_settings: ^0.1.5
+  center_webview: ^0.0.1
   cupertino_icons: ^1.0.0
+  circular_page_view: ^0.0.2
 
 dev_dependencies:
   flutter_test:

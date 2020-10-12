@@ -15,6 +15,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0-nullsafety.1"
+  center_webview:
+    dependency: "direct main"
+    description:
+      name: center_webview
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.1"
   characters:
     dependency: transitive
     description:
@@ -29,6 +36,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.0-nullsafety.1"
+  circular_page_view:
+    dependency: "direct main"
+    description:
+      name: circular_page_view
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2"
   clean_settings:
     dependency: "direct main"
     description:
@@ -158,3 +172,4 @@ packages:
     version: "2.1.0-nullsafety.3"
 sdks:
   dart: ">=2.10.0-110 <=2.11.0-161.0.dev"
+  flutter: ">=1.17.0 <2.0.0"
