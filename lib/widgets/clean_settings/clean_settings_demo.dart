@@ -7,9 +7,10 @@ class CleanSettingsDemo extends StatefulWidget {
 }
 
 class _CleanSettingsDemoState extends State<CleanSettingsDemo> {
-  //
+// #region scaffoldKey
   GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
-  //
+// #endregion
+
 // #region settings variables
   //
   int counter = 0;
@@ -25,9 +26,11 @@ class _CleanSettingsDemoState extends State<CleanSettingsDemo> {
   bool smartCompose = true;
   //
 // #endregion
-  //
+
   @override
   Widget build(BuildContext context) {
+// #region other variables
+
 //
 // #region dateOfBirthSlug
 
@@ -46,6 +49,8 @@ class _CleanSettingsDemoState extends State<CleanSettingsDemo> {
     //
 // #endregion
 //
+
+// #endregion
     return Scaffold(
       key: _scaffoldKey,
 // #region AppBar Settings
